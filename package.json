@@ -1,6 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "my first learning project",
   "main": "index.js",
   "scripts": {
@@ -9,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ekaterina-btc/frontend-project-lvl1.git"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
   "keywords": [
     "js"
@@ -20,3 +24,4 @@
   },
   "homepage": "https://github.com/Ekaterina-btc/frontend-project-lvl1#readme"
 }
+
