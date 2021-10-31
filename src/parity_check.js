@@ -36,7 +36,7 @@ const getRandomInRange = (min, max) => {
 
 const interaction = () => {
 	
-	for (let i = 0; i <= 3; i += 1) {
+	for (let i = 0; i <= 2; i += 1) {
 		let number = getRandomInRange(1,100);
 		console.log(`Question:${number}`);
 		const answer = readlineSync.question('Your answer: ');
