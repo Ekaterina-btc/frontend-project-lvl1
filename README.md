@@ -4,3 +4,4 @@
 <a href="https://asciinema.org/a/O7KFWwadhuCkRUnceZBkgbEt0">Asciinema Step 5</a>\
 <a href="https://asciinema.org/a/U6VxlZU05pKHIt3I3kJZjL3Bf">Asciinema Step 6</a>\
 <a href="https://asciinema.org/a/Lek01B9F9qDSY8G29riIQt2r4">Asciinema Step 7</a>\
+<a href="https://asciinema.org/a/IK4XCrU3sDl17xcCxeVrQKhTW">Asciinema Step 8</a>\
