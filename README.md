@@ -5,3 +5,4 @@
 <a href="https://asciinema.org/a/U6VxlZU05pKHIt3I3kJZjL3Bf">Asciinema Step 6</a>\
 <a href="https://asciinema.org/a/Lek01B9F9qDSY8G29riIQt2r4">Asciinema Step 7</a>\
 <a href="https://asciinema.org/a/WbUAxMKY2Zix3ThUGNVYP02Ib">Asciinema Step 8</a>\
+<a href="https://asciinema.org/a/zS1ytzFMlSERjGE9gfc1AlJ5r">Asciinema Step 8</a>\
