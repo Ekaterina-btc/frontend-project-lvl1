@@ -29,15 +29,18 @@ const brainPrime = () => {
 				console.log('Correct!');}
 			else {
 				console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'yes'. Let's try again, ${name}!`);
-				return;
-			} if (isPrime(numberForUser) === false) {
+				return; } 
+			if (isPrime(numberForUser) === false) {
 				if (userAnswer === 'no') {
 					console.log('Correct!');}
 				else {
 					console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'no'. Let's try again, ${name}!`);
-					return;
-				}
+					return; }
 			}
+		}
+		else {
+			console.log(`"Wrong answer ;(.\nLet's try again, ${name}`);
+			return;
 		}
 
 	}
