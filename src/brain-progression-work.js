@@ -14,10 +14,10 @@ const getRandomInRange = (min, max) => {
 const makeProg = (number, progStep) => {
 	// console.log(number, progStep);
 	let array = [number];
-	for (let i = 0; i <= getRandomInRange(1,9); i+=1) {
+	for (let i = 0; i <= getRandomInRange(4,9); i+=1) {
 		// console.log('prining i: ', i);
 		// console.log('prining result: ', array);
-		if (array.length === getRandomInRange(1,10))
+		if (array.length === getRandomInRange(5,10))
 			{ return array;
 		} else {
 			let nextNumber = array[i] + progStep;
