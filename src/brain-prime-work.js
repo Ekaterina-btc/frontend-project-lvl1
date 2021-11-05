@@ -11,8 +11,8 @@ const isPrime = (number) => {
 			return false;
 		}
 	}
-	// return num > 1;
-	return true;
+	return number > 1;
+	// return true;
 };
 
 const getRandomInRange = (min, max) => {
