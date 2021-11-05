@@ -33,7 +33,7 @@ const brainProg = () => {
 	for (let i = 0; i <= 2; i += 1) {
 		
 		let arr = makeProg (number1, number2);
-		let index = getRandomInRange(1,9);
+		let index = getRandomInRange(0,arr.length - 1);
 		let correctAnswer = arr[index];
 		arr[index] = '..';
 		let arrForUser = arr.join();
