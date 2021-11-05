@@ -37,7 +37,7 @@ const interaction = () => {
 	
 	for (let i = 0; i <= 2; i += 1) {
 		let number = getRandomInRange(1,100);
-		console.log(`Question:${number}`);
+		console.log(`Question: ${number}`);
 		const answer = readlineSync.question('Your answer: ');
 		if (number % 2 === 0) {
 			if (answer === 'yes') {
