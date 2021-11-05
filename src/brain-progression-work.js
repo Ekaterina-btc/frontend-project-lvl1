@@ -36,7 +36,7 @@ const brainProg = () => {
 		let index = getRandomInRange(1,9);
 		let correctAnswer = arr[index];
 		arr[index] = '..';
-		let arrForUser = arr.join();
+		let arrForUser = arr.join(' ');
 		console.log(`Question: ${arrForUser}`); 
 		const userAnswer = readlineSync.question('Your answer: ');
 		number2 = number2 + 1; 
