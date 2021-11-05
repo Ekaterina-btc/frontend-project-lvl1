@@ -22,7 +22,7 @@ const brainGcd = () => {
 		// eslint-disable-next-line indent
         let number1 = getRandomInRange(1,100);
 		let number2 = getRandomInRange(1,100);
-		console.log(`Question:${number1} ${number2}`);
+		console.log(`Question: ${number1} ${number2}`);
 		const userAnswer = readlineSync.question('Your answer: ');
 		const correctAnswer = gcd (number1, number2);
 		if (parseInt(userAnswer) === correctAnswer) {
