@@ -14,18 +14,18 @@ const getRandomInRange = (min, max) => {
 const makeProg = (number, progStep) => {
 	// console.log(number, progStep);
 	let array = [number];
-	for (let i = 0; i <= getRandomInRange(4,9); i+=1) {
-		// console.log('prining i: ', i);
-		// console.log('prining result: ', array);
-		if (array.length === getRandomInRange(5,10))
-			{ return array;
-		} else {
-			let nextNumber = array[i] + progStep;
-			array.push(nextNumber);
-		}
+	for (let i = 0; i <= 9; i+=1) {
+	// console.log('prining i: ', i);
+	// console.log('prining result: ', array);
+	if (array.length === 10) {
+		return array;
+	} else {
+		let nextNumber = array[i] + progStep;
+		array.push(nextNumber);
+	}
 	}
 	console.log(array);
-};  
+  };
 
 const brainProg = () => {
 	let number1 = getRandomInRange(1,100);
@@ -33,7 +33,7 @@ const brainProg = () => {
 	for (let i = 0; i <= 2; i += 1) {
 		
 		let arr = makeProg (number1, number2);
-		let index = getRandomInRange(0,arr.length - 1);
+		let index = getRandomInRange(0,9);
 		let correctAnswer = arr[index];
 		arr[index] = '..';
 		let arrForUser = arr.join();
