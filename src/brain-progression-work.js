@@ -6,25 +6,26 @@ const name = readlineSync.question('May I have your name?');
 console.log(`Hello, ${name}!`);
 console.log('What number is missing in the progression?');
 
+const getRandomInRange = (min, max) => {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+
 const makeProg = (number, progStep) => {
 	// console.log(number, progStep);
 	let array = [number];
-	for (let i = 0; i <= 9; i+=1) {
+	for (let i = 0; i <= getRandomInRange(1,9); i+=1) {
 		// console.log('prining i: ', i);
 		// console.log('prining result: ', array);
-		if (array.length === 10) {
-			return array;
+		if (array.length === getRandomInRange(1,10))
+			{ return array;
 		} else {
 			let nextNumber = array[i] + progStep;
 			array.push(nextNumber);
 		}
 	}
 	console.log(array);
-};    
-
-const getRandomInRange = (min, max) => {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+};  
 
 const brainProg = () => {
 	let number1 = getRandomInRange(1,100);
